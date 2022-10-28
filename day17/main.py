@@ -10,9 +10,9 @@ while is_on:
 	if choice == "off":
 		is_on = False
 	elif choice == "report":
-		print_report(resources, profit)
+		print_report(resources)
 	else:
-		drink(choice)
+		drink(choice, MENU)
 
 
 
